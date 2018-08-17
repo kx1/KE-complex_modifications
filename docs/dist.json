@@ -1942,10 +1942,10 @@
         {
           "path": "json/my_control_l.json",
           "json": {
-            "title": "Change Control_L Key",
+            "title": "Personal rules (@kx1)",
             "rules": [
               {
-                "description": "Change left_control+@ to escape"
+                "description": "Change left_control + @ to escape"
               }
             ]
           }

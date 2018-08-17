@@ -1,8 +1,8 @@
 {
-  "title": "Personal rules (@kx1)",
+  "title": "Change Control_L Key",
   "rules": [
     {
-      "description": "Change left_control + @ to escape",
+      "description": "Change left_control+@ to escape",
       "manipulators": [
         {
           "type": "basic",
