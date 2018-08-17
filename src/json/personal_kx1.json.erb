@@ -30,6 +30,268 @@
                     "to": <%= to([["tab", ["control"]]]) %>
                 }
             ]
+        },
+        {
+            "description": "Change right_command to japanese_eisuu if alone",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("right_command", [], ["any"]) %>,
+                    "to": <%= to([["right_command"]]) %>,
+                    "to_if_alone": <%= to([["japanese_eisuu"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+period to japanese_kana",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("period", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["japanese_kana"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+comma to japanese_kana",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("comma", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["japanese_kana"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+i to tab",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("i", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["tab"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+0 to control+a",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("0", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["a", ["control"]]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+9 to control+e",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("9", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["e", ["control"]]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+h to left_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("h", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["left_arrow"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+j to down_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("j", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["down_arrow"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+k to left_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("k", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["up_arrow"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_command+l to right_arrow",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("l", ["right_command"], ["any"]) %>,
+                    "to": <%= to([["right_arrow"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change spacebar to right_command if pressed with other keys (Post spacebar when pressed alone)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("spacebar", [], ["any"]) %>,
+                    "to": <%= to([["right_shift"]]) %>,
+                    "to_if_alone": <%= to([["spacebar"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+h to g",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("h", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["g"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+j to f",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("j", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["f"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+k to d",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("k", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["d"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+l to s",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("l", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["s"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+; to a",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("semicolon", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["a"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+y to t",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("y", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["t"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+u to r",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("u", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["r"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+i to e",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("i", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["e"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+o to w",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("o", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["w"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+p to q",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("p", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["q"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+p to q",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("p", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["q"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+n to b",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("n", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["b"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+m to v",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("m", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["v"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+comma to c",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("comma", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["c"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change right_shift+period to z",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("period", ["right_shift"], ["any"]) %>,
+                    "to": <%= to([["z"]]) %>
+                }
+            ]
         }
     ]
 }
