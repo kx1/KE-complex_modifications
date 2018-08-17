@@ -1,0 +1,15 @@
+{
+    "title": "Change Control_L Key",
+    "rules": [
+        {
+            "description": "Change left_control+@ to escape",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("open_bracket", ["left_control"], ["any"]) %>,
+                    "to": <%= to([["escape"]]) %>
+                }
+            ]
+        }
+    ]
+}
