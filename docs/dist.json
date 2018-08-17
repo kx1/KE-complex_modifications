@@ -1940,6 +1940,17 @@
       "id": "personal-settings",
       "files": [
         {
+          "path": "json/_my_control_l.json",
+          "json": {
+            "title": "Change Control_L Key",
+            "rules": [
+              {
+                "description": "Change left_control+@ to escape"
+              }
+            ]
+          }
+        },
+        {
           "path": "json/personal_tekezo.json",
           "extra_description_path": "extra_descriptions/personal_tekezo.json.html",
           "json": {
