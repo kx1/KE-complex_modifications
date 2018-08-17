@@ -420,6 +420,9 @@
       "id": "personal-settings",
       "files": [
         {
+          "path": "json/_my_control_l.json"
+        },
+        {
           "path": "json/personal_tekezo.json",
           "extra_description_path":
             "extra_descriptions/personal_tekezo.json.html"
