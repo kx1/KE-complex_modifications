@@ -1,0 +1,35 @@
+{
+    "title": "Personal rules (@kx1)",
+    "rules": [
+        {
+            "description": "Change left_control+@ to escape",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("open_bracket", ["left_control"], ["any"]) %>,
+                    "to": <%= to([["escape"]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change left_command+h to control+shift+tab",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("h", ["left_command"], ["any"]) %>,
+                    "to": <%= to([["tab", ["control", "shift"]]]) %>
+                }
+            ]
+        },
+        {
+            "description": "Change left_command+l to control+tab",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("l", ["left_command"], ["any"]) %>,
+                    "to": <%= to([["tab", ["control"]]]) %>
+                }
+            ]
+        }
+    ]
+}

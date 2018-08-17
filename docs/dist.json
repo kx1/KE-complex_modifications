@@ -1940,12 +1940,18 @@
       "id": "personal-settings",
       "files": [
         {
-          "path": "json/my_control_l.json",
+          "path": "json/personal_kx1.json",
           "json": {
             "title": "Personal rules (@kx1)",
             "rules": [
               {
-                "description": "Change left_control + @ to escape"
+                "description": "Change left_control+@ to escape"
+              },
+              {
+                "description": "Change left_command+h to control+shift+tab"
+              },
+              {
+                "description": "Change left_command+l to control+tab"
               }
             ]
           }
