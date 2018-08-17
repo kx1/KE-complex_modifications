@@ -1940,7 +1940,7 @@
       "id": "personal-settings",
       "files": [
         {
-          "path": "json/_my_control_l.json",
+          "path": "json/my_control_l.json",
           "json": {
             "title": "Change Control_L Key",
             "rules": [
