@@ -423,6 +423,9 @@
           "path": "json/personal_kx1.json"
         },
         {
+          "path": "json/personal_kx1_experimental.json"
+        },
+        {
           "path": "json/personal_tekezo.json",
           "extra_description_path":
             "extra_descriptions/personal_tekezo.json.html"
