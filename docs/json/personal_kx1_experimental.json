@@ -1,92 +1,13 @@
 {
-  "title": "Personal rules (@kx1)",
+  "title": "Personal rules (@kx1) experimental",
   "rules": [
     {
-      "description": "Change left_control+@ to escape",
+      "description": "Change spacebar to right_command if pressed with other keys (Post spacebar when pressed alone)",
       "manipulators": [
         {
           "type": "basic",
           "from": {
-            "key_code": "open_bracket",
-            "modifiers": {
-              "mandatory": [
-                "left_control"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "escape"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change left_command+h to control+shift+tab",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "h",
-            "modifiers": {
-              "mandatory": [
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "tab",
-              "modifiers": [
-                "control",
-                "shift"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change left_command+l to control+tab",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "l",
-            "modifiers": {
-              "mandatory": [
-                "left_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "tab",
-              "modifiers": [
-                "control"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change right_command to japanese_eisuu if alone",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "right_command",
+            "key_code": "spacebar",
             "modifiers": {
               "optional": [
                 "any"
@@ -95,145 +16,19 @@
           },
           "to": [
             {
-              "key_code": "right_command"
+              "key_code": "right_shift"
             }
           ],
           "to_if_alone": [
             {
-              "key_code": "japanese_eisuu"
+              "key_code": "spacebar"
             }
           ]
         }
       ]
     },
     {
-      "description": "Change right_command+period to japanese_kana",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "period",
-            "modifiers": {
-              "mandatory": [
-                "right_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "japanese_kana"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change right_command+comma to japanese_kana",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "comma",
-            "modifiers": {
-              "mandatory": [
-                "right_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "japanese_kana"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change right_command+i to tab",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "i",
-            "modifiers": {
-              "mandatory": [
-                "right_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "tab"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change right_command+0 to control+a",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "0",
-            "modifiers": {
-              "mandatory": [
-                "right_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "a",
-              "modifiers": [
-                "control"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change right_command+9 to control+e",
-      "manipulators": [
-        {
-          "type": "basic",
-          "from": {
-            "key_code": "9",
-            "modifiers": {
-              "mandatory": [
-                "right_command"
-              ],
-              "optional": [
-                "any"
-              ]
-            }
-          },
-          "to": [
-            {
-              "key_code": "e",
-              "modifiers": [
-                "control"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "description": "Change right_command+h to left_arrow",
+      "description": "Change right_shift+h to g",
       "manipulators": [
         {
           "type": "basic",
@@ -241,7 +36,7 @@
             "key_code": "h",
             "modifiers": {
               "mandatory": [
-                "right_command"
+                "right_shift"
               ],
               "optional": [
                 "any"
@@ -250,14 +45,14 @@
           },
           "to": [
             {
-              "key_code": "left_arrow"
+              "key_code": "g"
             }
           ]
         }
       ]
     },
     {
-      "description": "Change right_command+j to down_arrow",
+      "description": "Change right_shift+j to f",
       "manipulators": [
         {
           "type": "basic",
@@ -265,7 +60,7 @@
             "key_code": "j",
             "modifiers": {
               "mandatory": [
-                "right_command"
+                "right_shift"
               ],
               "optional": [
                 "any"
@@ -274,14 +69,14 @@
           },
           "to": [
             {
-              "key_code": "down_arrow"
+              "key_code": "f"
             }
           ]
         }
       ]
     },
     {
-      "description": "Change right_command+k to left_arrow",
+      "description": "Change right_shift+k to d",
       "manipulators": [
         {
           "type": "basic",
@@ -289,7 +84,7 @@
             "key_code": "k",
             "modifiers": {
               "mandatory": [
-                "right_command"
+                "right_shift"
               ],
               "optional": [
                 "any"
@@ -298,14 +93,14 @@
           },
           "to": [
             {
-              "key_code": "up_arrow"
+              "key_code": "d"
             }
           ]
         }
       ]
     },
     {
-      "description": "Change right_command+l to right_arrow",
+      "description": "Change right_shift+l to s",
       "manipulators": [
         {
           "type": "basic",
@@ -313,7 +108,7 @@
             "key_code": "l",
             "modifiers": {
               "mandatory": [
-                "right_command"
+                "right_shift"
               ],
               "optional": [
                 "any"
@@ -322,7 +117,271 @@
           },
           "to": [
             {
-              "key_code": "right_arrow"
+              "key_code": "s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+; to a",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+y to t",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+u to r",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+i to e",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "e"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+o to w",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "o",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "w"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+p to q",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+p to q",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "q"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+n to b",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "n",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "b"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+m to v",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "m",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+comma to c",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Change right_shift+period to z",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "period",
+            "modifiers": {
+              "mandatory": [
+                "right_shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "z"
             }
           ]
         }

@@ -1982,54 +1982,6 @@
               },
               {
                 "description": "Change right_command+l to right_arrow"
-              },
-              {
-                "description": "Change spacebar to right_command if pressed with other keys (Post spacebar when pressed alone)"
-              },
-              {
-                "description": "Change right_shift+h to g"
-              },
-              {
-                "description": "Change right_shift+j to f"
-              },
-              {
-                "description": "Change right_shift+k to d"
-              },
-              {
-                "description": "Change right_shift+l to s"
-              },
-              {
-                "description": "Change right_shift+; to a"
-              },
-              {
-                "description": "Change right_shift+y to t"
-              },
-              {
-                "description": "Change right_shift+u to r"
-              },
-              {
-                "description": "Change right_shift+i to e"
-              },
-              {
-                "description": "Change right_shift+o to w"
-              },
-              {
-                "description": "Change right_shift+p to q"
-              },
-              {
-                "description": "Change right_shift+p to q"
-              },
-              {
-                "description": "Change right_shift+n to b"
-              },
-              {
-                "description": "Change right_shift+m to v"
-              },
-              {
-                "description": "Change right_shift+comma to c"
-              },
-              {
-                "description": "Change right_shift+period to z"
               }
             ]
           }
