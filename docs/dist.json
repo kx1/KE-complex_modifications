@@ -1940,9 +1940,9 @@
       "id": "personal-settings",
       "files": [
         {
-          "path": "json/personal_kx1.json",
+          "path": "json/personal_my.json",
           "json": {
-            "title": "Personal rules (@kx1)",
+            "title": "Personal rules (@my)",
             "rules": [
               {
                 "description": "Change left_control+@ to escape"
@@ -1987,9 +1987,9 @@
           }
         },
         {
-          "path": "json/personal_kx1_experimental.json",
+          "path": "json/personal_my_experimental.json",
           "json": {
-            "title": "Personal rules (@kx1) experimental",
+            "title": "Personal rules (@my) experimental",
             "rules": [
               {
                 "description": "Change spacebar to right_command if pressed with other keys (Post spacebar when pressed alone)"

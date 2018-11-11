@@ -420,10 +420,10 @@
       "id": "personal-settings",
       "files": [
         {
-          "path": "json/personal_kx1.json"
+          "path": "json/personal_my.json"
         },
         {
-          "path": "json/personal_kx1_experimental.json"
+          "path": "json/personal_my_experimental.json"
         },
         {
           "path": "json/personal_tekezo.json",

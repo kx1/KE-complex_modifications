@@ -1,5 +1,5 @@
 {
-  "title": "Personal rules (@kx1) experimental",
+  "title": "Personal rules (@my) experimental",
   "rules": [
     {
       "description": "Change spacebar to right_command if pressed with other keys (Post spacebar when pressed alone)",
