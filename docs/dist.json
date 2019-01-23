@@ -1954,6 +1954,9 @@
                 "description": "Change left_command+l to control+tab"
               },
               {
+                "description": "Change shift+command+[ to left_command+h (intellij)"
+              },
+              {
                 "description": "Change right_command to japanese_eisuu if alone"
               },
               {

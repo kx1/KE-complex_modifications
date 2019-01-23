@@ -32,6 +32,19 @@
             ]
         },
         {
+            "description": "Change shift+command+[ to left_command+h (intellij)",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": <%= from("h", ["left_command"], ["any"]) %>,
+                    "to": <%= to([["open_bracket", ["command", "shift"]]]) %>,
+                    "conditions": [
+                        <%= frontmost_application_if(["com.jetbrains.intellij"]) %>
+                    ]
+                }
+            ]
+        },
+        {
             "description": "Change right_command to japanese_eisuu if alone",
             "manipulators": [
                 {

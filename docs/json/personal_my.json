@@ -81,6 +81,42 @@
       ]
     },
     {
+      "description": "Change shift+command+[ to left_command+h (intellij)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "open_bracket",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "type": "frontmost_application_if",
+              "bundle_identifiers": [
+
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "description": "Change right_command to japanese_eisuu if alone",
       "manipulators": [
         {
